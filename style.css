@@ -1,0 +1,178 @@
+/* Font Face */
+@font-face {
+  font-family: 'Exodus';
+  src: url('assets/ExodusDemo-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exodus', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #444;
+  color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Additional Styling for Improved Appearance */
+body {
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+
+  .Home1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .Home1 div :nth-of-type(1) {
+
+    display: flex;
+    width: calc(80vw - 10px);
+    
+    
+  }
+
+  .Home1 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .homeheading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .homepara {
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    width: auto;
+  }
+
+  /* .Home1 div :nth-of-type(2) {
+    width: calc(50vw - 10px);
+    display: flex;
+  } */
+
+  .tabhome {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh; 
+    height: calc(60vw - 10vw);
+  }
+
+  .tabhomepara {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: auto;
+  }
+
+
+  .phonelanding {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .phonepara {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    
+  }
+
+  .id1 {
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+  }
+
+  .id2 {
+
+    display: flex;
+    justify-content: center;
+    height: 42vw;
+    margin-top: 5vh;
+
+  }
+
+  .id3 {
+
+    display: flex;
+    justify-content: center;
+    height: 42vw;
+    margin-top: 5vh;
+  }
+
+  .layout1 {
+
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+    margin-top: 5vh;
+
+  }
+
+  .navelements {
+    display: flex;
+    justify-content: center;
+    height: 5vw;
+    margin-top: 3vh;
+  }
+
+  .navelements2 {
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+    margin-top: 3vh;
+  }
+
+
+
+
